@@ -31,9 +31,13 @@ class Warship(Ship):
     fire 30% of the time.
     """
 
-    def __init__(self, name, laser, shield, hull, missiles):
+    def __init__(self, name, laser, shield, hull):
         super().__init__(name, laser, shield, hull)
-        self.missiles = missiles
+
+    def high_powered_missile(self):
+        if random.randint(1, 10) < 4:  # 30% chance of high powered missile
+            return 1.3
+        return 1
 
 
 class Speeder(Ship):
@@ -41,9 +45,13 @@ class Speeder(Ship):
     Speeders additionally dodge 50% of incoming attacks.
     """
 
-    def __init__(self, name, laser, shield, hull, chance):
+    def __init__(self, name, laser, shield, hull):
         super().__init__(name, laser, shield, hull)
-        self.chance = chance
+
+    def dodge_attack(self):
+        if random.randint(1, 10) < 6:  # 50% chance of dodging attack
+            return 0
+        return 1
 
 
 def update(name, shield, hull):
@@ -54,17 +62,30 @@ def update(name, shield, hull):
         print(name, "has not been destroyed. Shield:", shield, "Hull:", hull)
 
 
+def diagnostic(spaceship):
+    print("///DIAGNOSTIC FOR:", spaceship.name)
+    print("/ Laser Power:", spaceship.laser, "/ Shield:", spaceship.shield, "/ Hull:", spaceship.hull, "/")
+    print("Type:", type(spaceship))
+
+def battle_over(A, B, C, D, E):  #  each letter refers to a ship
+    total = [A, B, C, D, E]
+    death_count = 0
+    for each in total:  # check how many ships are destroyed
+        if each.hull == 0:
+            death_count += 1
+        if death_count == 4:
+            return 0
+        return 1
+
 ShipA = Ship("Alfred", 30, 100, 100)  # Ships generated.
 ShipB = Ship("Betty", 30, 100, 100)
 ShipC = Ship("Chris", 30, 100, 100)
-ShipD = Warship("Destroyer", 30, 100, 100, 50)
-ShipE = Speeder("Eager", 30, 100, 100, 0.5)
+ShipD = Warship("Destroyer", 30, 100, 100)
+ShipE = Speeder("Eager", 30, 100, 100)
 
-ShipA.shield, ShipA.hull = ShipA.defend(ShipB.laser, ShipA.shield, ShipA.hull)
-
-print(ShipA.shield, ShipA.hull)
-
-update(ShipA.name, ShipA.shield, ShipA.hull)
+print("Let the games begin!")
+while battle_over(ShipA, ShipB, ShipC, ShipD, ShipE) == 1:
+    print("done")
 
 
 
