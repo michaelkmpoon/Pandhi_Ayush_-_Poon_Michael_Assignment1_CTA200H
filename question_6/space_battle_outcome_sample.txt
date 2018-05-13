@@ -1,0 +1,180 @@
+C:\Users\micha\AppData\Local\Programs\Python\Python36\python.exe "C:/Users/micha/Desktop/u of t first year/006 cta200/Poon_Michael_Assignment1_CTA200H/question_6/space_battle.py"
+Let the games begin! 
+ 
+Day 1 // Alive: ['Alfred', 'Betty', 'Chris', 'Destroyer', 'Eager']
+Chris attacks Betty 
+
+Betty has not been destroyed. Shield: 70 Hull: 4 
+
+///DIAGNOSTIC FOR: Betty
+/ Laser Power: 30 / Shield: 70 / Hull: 4 /
+Type: <class '__main__.Ship'> 
+
+Day 2 // Alive: ['Alfred', 'Betty', 'Chris', 'Destroyer', 'Eager']
+Alfred attacks Betty 
+
+Betty has not been destroyed. Shield: 40 Hull: 4 
+
+///DIAGNOSTIC FOR: Betty
+/ Laser Power: 30 / Shield: 40 / Hull: 4 /
+Type: <class '__main__.Ship'> 
+
+Day 3 // Alive: ['Alfred', 'Betty', 'Chris', 'Destroyer', 'Eager']
+Betty attacks Chris 
+
+Chris has not been destroyed. Shield: 70 Hull: 4 
+
+///DIAGNOSTIC FOR: Chris
+/ Laser Power: 30 / Shield: 70 / Hull: 4 /
+Type: <class '__main__.Ship'> 
+
+Day 4 // Alive: ['Alfred', 'Betty', 'Chris', 'Destroyer', 'Eager']
+Chris attacks Betty 
+
+Betty has not been destroyed. Shield: 10 Hull: 4 
+
+///DIAGNOSTIC FOR: Betty
+/ Laser Power: 30 / Shield: 10 / Hull: 4 /
+Type: <class '__main__.Ship'> 
+
+Day 5 // Alive: ['Alfred', 'Betty', 'Chris', 'Destroyer', 'Eager']
+Chris attacks Alfred 
+
+Alfred has not been destroyed. Shield: 70 Hull: 4 
+
+///DIAGNOSTIC FOR: Alfred
+/ Laser Power: 30 / Shield: 70 / Hull: 4 /
+Type: <class '__main__.Ship'> 
+
+Day 6 // Alive: ['Alfred', 'Betty', 'Chris', 'Destroyer', 'Eager']
+Chris attacks Destroyer 
+
+Destroyer has not been destroyed. Shield: 70 Hull: 4 
+
+///DIAGNOSTIC FOR: Destroyer
+/ Laser Power: 30 / Shield: 70 / Hull: 4 /
+Type: <class '__main__.Warship'> 
+
+Day 7 // Alive: ['Alfred', 'Betty', 'Chris', 'Destroyer', 'Eager']
+Betty attacks Destroyer 
+
+Destroyer has not been destroyed. Shield: 40 Hull: 4 
+
+///DIAGNOSTIC FOR: Destroyer
+/ Laser Power: 30 / Shield: 40 / Hull: 4 /
+Type: <class '__main__.Warship'> 
+
+Day 8 // Alive: ['Alfred', 'Betty', 'Chris', 'Destroyer', 'Eager']
+Alfred attacks Eager 
+
+Eager has not been destroyed. Shield: 70 Hull: 4 
+
+///DIAGNOSTIC FOR: Eager
+/ Laser Power: 30 / Shield: 70 / Hull: 4 /
+Type: <class '__main__.Speeder'> 
+
+Day 9 // Alive: ['Alfred', 'Betty', 'Chris', 'Destroyer', 'Eager']
+Alfred attacks Destroyer 
+
+Destroyer has not been destroyed. Shield: 10 Hull: 4 
+
+///DIAGNOSTIC FOR: Destroyer
+/ Laser Power: 30 / Shield: 10 / Hull: 4 /
+Type: <class '__main__.Warship'> 
+
+Day 10 // Alive: ['Alfred', 'Betty', 'Chris', 'Destroyer', 'Eager']
+Betty attacks Eager 
+
+Eager has not been destroyed. Shield: 70 Hull: 4 
+
+///DIAGNOSTIC FOR: Eager
+/ Laser Power: 30 / Shield: 70 / Hull: 4 /
+Type: <class '__main__.Speeder'> 
+
+Day 11 // Alive: ['Alfred', 'Betty', 'Chris', 'Destroyer', 'Eager']
+Destroyer attacks Chris 
+
+Chris has not been destroyed. Shield: 40 Hull: 4 
+
+///DIAGNOSTIC FOR: Chris
+/ Laser Power: 30 / Shield: 40 / Hull: 4 /
+Type: <class '__main__.Ship'> 
+
+Day 12 // Alive: ['Alfred', 'Betty', 'Chris', 'Destroyer', 'Eager']
+Alfred attacks Betty 
+
+Betty has been destroyed. 
+
+Day 13 // Alive: ['Alfred', 'Chris', 'Destroyer', 'Eager']
+Destroyer attacks Chris 
+
+Chris has not been destroyed. Shield: 10 Hull: 4 
+
+///DIAGNOSTIC FOR: Chris
+/ Laser Power: 30 / Shield: 10 / Hull: 4 /
+Type: <class '__main__.Ship'> 
+
+Day 14 // Alive: ['Alfred', 'Chris', 'Destroyer', 'Eager']
+Chris attacks Destroyer 
+
+Destroyer has been destroyed. 
+
+Day 15 // Alive: ['Alfred', 'Chris', 'Eager']
+Alfred attacks Chris 
+
+Chris has been destroyed. 
+
+Day 16 // Alive: ['Alfred', 'Eager']
+Eager attacks Alfred 
+
+Alfred has not been destroyed. Shield: 40 Hull: 4 
+
+///DIAGNOSTIC FOR: Alfred
+/ Laser Power: 30 / Shield: 40 / Hull: 4 /
+Type: <class '__main__.Ship'> 
+
+Day 17 // Alive: ['Alfred', 'Eager']
+Eager attacks Alfred 
+
+Alfred has not been destroyed. Shield: 10 Hull: 4 
+
+///DIAGNOSTIC FOR: Alfred
+/ Laser Power: 30 / Shield: 10 / Hull: 4 /
+Type: <class '__main__.Ship'> 
+
+Day 18 // Alive: ['Alfred', 'Eager']
+Alfred attacks Eager 
+
+Eager has not been destroyed. Shield: 70 Hull: 4 
+
+///DIAGNOSTIC FOR: Eager
+/ Laser Power: 30 / Shield: 70 / Hull: 4 /
+Type: <class '__main__.Speeder'> 
+
+Day 19 // Alive: ['Alfred', 'Eager']
+Alfred attacks Eager 
+
+Eager has not been destroyed. Shield: 40 Hull: 4 
+
+///DIAGNOSTIC FOR: Eager
+/ Laser Power: 30 / Shield: 40 / Hull: 4 /
+Type: <class '__main__.Speeder'> 
+
+Day 20 // Alive: ['Alfred', 'Eager']
+Alfred attacks Eager 
+
+Eager has not been destroyed. Shield: 10 Hull: 4 
+
+///DIAGNOSTIC FOR: Eager
+/ Laser Power: 30 / Shield: 10 / Hull: 4 /
+Type: <class '__main__.Speeder'> 
+
+Day 21 // Alive: ['Alfred', 'Eager']
+Eager attacks Alfred 
+
+Alfred has been destroyed. 
+
+Eager has won!
+Battle over.
+
+Process finished with exit code 0
